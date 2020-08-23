@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Forms</title>
+</head>
+
+<body>
+  <!-- Form -->
+  <h1>Sign in</h1>
+  <!-- action - where the form send data to -->
+  <!-- method - what HTTP method (get/post) -->
+  <!-- We need to send data to our server -->
+  <form action="http://www.wikipedia.org" method="POST">
+    <label>
+      Username:
+      <input type="text" placeholder="username" required>
+    </label>
+    <label>
+      Password:
+      <input type="password" placeholder="password" required>
+    </label>
+    <input type="submit">
+
+    <!-- We can do the same thing -->
+    <!-- Use for and id to connect -->
+    <p>
+      <label for="username">Username:</label>
+      <input id="username" type="text" placeholder="username">
+    </p>
+  </form>
+
+
+</body>
+
+</html>

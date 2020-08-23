@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Register</title>
+</head>
+
+<body>
+  <h1>Register</h1>
+
+  <form action="http://www.wikipedia.org" method="POST">
+    <div>
+      <label for="firstname">First Name:</label>
+      <input id="firstname" type="text" placeholder="Robert" required>
+      <label for="lastname">Last Name:</label>
+      <input id="lastname" type="text" placeholder="Yang" required>
+    </div>
+
+    <div>
+      <label for="Male">Male</label>
+      <input name="gender" id="Male" type="radio" required>
+      <label for="Female">Female</label>
+      <input name="gender" id="Female" type="radio" required>
+      <label for="Other">Other</label>
+      <input name="gender" id="Other" type="radio" required>
+    </div>
+
+    <div>
+      <label for="Email">Email:</label>
+      <input id="Email" type="email" placeholder="your email" required>
+      <label for="Password">Password:</label>
+      <input id="Password" pattern=".{5,10}" required title="5 to 10 characters">
+    </div>
+
+    <div>
+      <label for="Birthday">Birthday:</label>
+      <select name="Month">
+        <option value="Month">Month</option>
+        <option value="9">9</option>
+        <option value="9">10</option>
+        <option value="9">11</option>
+      </select>
+      <select name="Day">
+        <option value="Day">Day</option>
+        <option value="9">9</option>
+        <option value="9">10</option>
+        <option value="9">11</option>
+      </select>
+      <select name="Year">
+        <option value="Year">Year</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+      </select>
+    </div>
+    <div>
+      <label for="agree">I agree to the terms and conditions</label>
+      <input id="agree" type="checkbox" required>
+    </div>
+    <div>
+      <input type="submit">
+    </div>
+  </form>
+
+
+
+
+</body>
+
+</html>
