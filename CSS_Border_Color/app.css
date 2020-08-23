@@ -1,0 +1,25 @@
+h1{
+  /* color:red; */
+  color:#FF0000;
+  /* border-color:purple;
+  border-width: 5px;
+  border-style: solid; */
+  border: 5px solid purple;
+}
+/* color
+width
+style */
+li{
+  /* color: green; */
+  color:rgb(0,255,0);
+}
+h4{
+  background: rgb(208, 46, 46);  
+} 
+
+body{
+  /* background: url(Wood_grain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: pink;
+}
