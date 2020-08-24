@@ -1,0 +1,22 @@
+ td{
+   width: 100px;
+   height: 100px;
+
+ }
+
+.vertical{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.herizon{
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+table{
+  margin: 0 auto 0 auto;
+}
+h1{
+  text-align: center;
+}
